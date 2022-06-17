@@ -90,3 +90,7 @@ conn_index = 'zeek_conn_2022-05-06'
 ## Scripts
 
 This section explains the scripts employed in this thesis. Each script has a role in the process of processing the data to Elasticsearch.
+
+
+## Kibana Dashboard
+
