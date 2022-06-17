@@ -15,7 +15,7 @@ This repository contains the code about the creation of a Machine Learning model
 
 ## Requirements
 
-To execute successfully the architecture of the proposed model. In this case, it is employed Ubuntu 20.04.4 LTS to create the enviroment for the proposed model. You have to install the following requirements
+To execute successfully the proposed system of this thesis, it is employed Ubuntu 20.04.4 LTS. You have to install the following requirements
 
 ### Python
   - Python v2.7: This version is necessary to run the program ```DNP3AttackCrafter.py ```
