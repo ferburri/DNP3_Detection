@@ -8,20 +8,34 @@ This repository contains the code about the creation of a Machine Learning model
 
 ## Table of Contents
 
+1. [Abstract](#Abstract)
+2. [Requirements](#Requirements)
+  
+      2.1. [Python](#Python)
+  
+      2.2. [Zeek](#Zeek)
+  
+      2.3. [Elasticsearch & Kibana](#es)
+  
+      2.4 [Jupyter Notebook](#colab)
+  
+4. [Data](#Data)
+5. [Scripts](#Scripts)
+6. [Kibana Dashboard](#KibanaDashboard)
 
-## Abstract
+## Abstract <a name="Abstract"></a>
 
 
 
-## Requirements
+## Requirements <a name="Requirements"></a>
 
 To execute successfully the proposed system of this thesis, it is employed Ubuntu 20.04.4 LTS. You have to install the following requirements
 
-### Python
+### Python <a name="Python"></a>
   - Python v2.7: This version is necessary to run the program ```DNP3AttackCrafter.py ```
   - Python v3+: These versions are configured to run the rest of scripts.
 
-### Zeek version 5.0.0
+### Zeek version 5.0.0 <a name="Zeek"></a>
 
 To install zeek on your virtual machine, you need to follow a serie of steps stated in these website:
 
@@ -29,7 +43,7 @@ To install zeek on your virtual machine, you need to follow a serie of steps sta
 
 [Zeek]: https://kifarunix.com/install-zeek-on-ubuntu/
 
-### Elasticsearch & Kibana v7.17+
+### Elasticsearch & Kibana v7.17+ <a name="es"></a>
 
 To install the Elasticsearch and Kibana dependencies in your local machine, you have to follow the installation procedure from this website:
 
@@ -37,7 +51,7 @@ To install the Elasticsearch and Kibana dependencies in your local machine, you 
 
 [es]: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-ubuntu-20-04
 
-### Jupyter Notebook
+### Jupyter Notebook <a name="colab"></a>
 
 In order to run the different Machine Learning algorithms, you should import different Python libraries:
 
@@ -87,12 +101,13 @@ def get_data_from_elastic(index_name):
 conn_index = 'zeek_conn_2022-05-06'
 ```
 
-## Scripts
+## Data <a name="Data"></a>
+
+## Scripts <a name="Scripts"></a>
 
 This section explains the scripts employed in this thesis. Each script has a role in the process of processing the data to Elasticsearch.
 
-
-## Kibana Dashboard
+## Kibana Dashboard <a name="KibanaDashboard"></a>
 
 <p align="center">
   <img width="442" alt="Dashboard_DNP3" src="https://user-images.githubusercontent.com/79408013/174283553-386d4fd7-1a9f-429d-b551-3825689f3af6.png">
