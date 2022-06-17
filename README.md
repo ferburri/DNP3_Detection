@@ -94,3 +94,7 @@ This section explains the scripts employed in this thesis. Each script has a rol
 
 ## Kibana Dashboard
 
+<p align="center">
+  <img width="442" alt="Dashboard_DNP3" src="https://user-images.githubusercontent.com/79408013/174283553-386d4fd7-1a9f-429d-b551-3825689f3af6.png">
+</p>
+
