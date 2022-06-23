@@ -8,28 +8,19 @@ This repository contains the code about the creation of a Machine Learning model
 
 ## Table of Contents
 
-1. [Abstract](#Abstract)
-2. [Requirements](#Requirements)
+1. [Requirements](#Requirements)
   
-      2.1. [Python](#Python)
+      1.1. [Python](#Python)
   
-      2.2. [Zeek](#Zeek)
+      1.2. [Zeek](#Zeek)
   
-      2.3. [Elasticsearch & Kibana](#es)
+      1.3. [Elasticsearch & Kibana](#es)
   
-      2.4 [Jupyter Notebook](#colab)
+      1.4 [Jupyter Notebook](#colab)
   
-4. [Data](#Data)
-5. [Scripts](#Scripts)
-6. [Kibana Dashboard](#KibanaDashboard)
-
-## Abstract <a name="Abstract"></a>
-
-This GitHub repository focuses on the analysis and development of techniques for detecting anomalies in the application layer of network traffic within the industrial environment, more specifically in the detection of anomalies in the protocol called Distribution Network Protocol (DNP3).
-
-To approach this objective, the thesis presents an architecture that transform the network traffic stored in a specific file format into a format that it is easier to manage and visualise. In addition, this thesis provides a classification system by elaborating different Machine Learning algorithms with the purpose of choosing the best model that detects anomalies regarding this network protocol.
-	
-Each model was developed using different datasets from multiple platforms that were unified to create a comprehensive DNP3 dataset with a total of 374,542 observations. The Decision Tree algorithm obtained the best results with respect to the other models. It shows a prediction accuracy of up to 96% and a precision around 89%. Therefore, the taken approach successfully produces a classification system.
+2. [Data](#Data)
+3. [Scripts](#Scripts)
+4. [Kibana Dashboard](#KibanaDashboard)
 
 ## Requirements <a name="Requirements"></a>
 
